@@ -3,8 +3,7 @@
  * FILE: js/dashboard.js
  * PROJECT: RetailMart V2 Enterprise Analytics Platform
  * PURPOSE: Dashboard interactivity, data loading, and chart rendering
- * AUTHOR: Sayyed Siraj Ali
- * VERSION: 2.0 — 10-Tab Dashboard
+ * AUTHOR: Vaibhav Anand
  * ============================================================================
  */
 
@@ -675,7 +674,7 @@ async function initDashboard() {
     switchTab("executive");
     updateAlertBadge();
     document.getElementById("footerTimestamp").textContent =
-      "RetailMart V2 Analytics | Sayyed Siraj Ali | Last updated: " + new Date().toLocaleString("en-IN");
+      "RetailMart Analytics | Vaibhav Anand | Last updated: " + new Date().toLocaleString("en-IN");
   } else {
     console.error("Failed to initialize dashboard");
   }
