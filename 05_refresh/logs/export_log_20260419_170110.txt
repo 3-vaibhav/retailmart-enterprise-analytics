@@ -1,0 +1,22 @@
+============================================================================
+  RetailMart V2 Analytics — JSON Export
+  Database: accio_retailmart_24
+  Output: ./06_dashboard/data
+  Started: Sun Apr 19 17:01:10 IST 2026
+============================================================================
+
+Exporting JSON data...
+
+[1/10] Executive...
+  ✓ executive_summary.json (     370 bytes, 7214ms)
+[2/10] Sales...
+  ✓ monthly_trend.json (    8751 bytes, 27848ms)
+  ✓ recent_trend.json (    5932 bytes, 10772ms)
+  ✓ dayofweek.json (    1155 bytes, 30509ms)
+  ✓ payment_mode.json (    1623 bytes, 5205ms)
+  ✓ quarterly_sales.json (    1637 bytes, 5058ms)
+  ✓ weekend_weekday.json (     305 bytes, 4693ms)
+  ✓ order_status.json (    1223 bytes, 5022ms)
+[3/10] Customers...
+  ✓ top_customers.json ( 11101899 bytes, 5414ms)
+  ✓ clv_tiers.json (     737 bytes, 4480ms)
